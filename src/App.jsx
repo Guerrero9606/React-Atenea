@@ -4,12 +4,13 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Fcf from './assets/fcf.webp';
 import Inicio from './pages/Inicio';
+import Servicios from './pages/Servicios';
 
 function App() {
   return(
-    <div>
-      <Inicio />
-    </div>
+    <>
+      <Servicios />
+    </>
   );
 }
 

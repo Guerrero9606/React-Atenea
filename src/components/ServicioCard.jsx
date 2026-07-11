@@ -1,5 +1,5 @@
 import './ServicioCard.css';
-//import imagenServicio from '../assets/servicio.jpg'
+import imagenServicio from '../assets/servicios.webp'
 
 function ServicioCard(){
     const nombreServicio = "Desarrollo WEB"
@@ -9,7 +9,7 @@ function ServicioCard(){
 
     return (
         <article className='servicio-card'>
-            <div className='card-image-contenedor'>
+            <div className='card-imagen-contenedor'>
                 <img src={imagenServicio} alt="Servicio WEB" className='card-image'/>
                 {enOferta && <span className='card-etiqueta'>¡Oferta Especial!</span>}
             </div>

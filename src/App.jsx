@@ -1,15 +1,9 @@
-import './App.css'
-import Tarjeta from './components/Tarjeta';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Fcf from './assets/fcf.webp';
-import Inicio from './pages/Inicio';
-import Servicios from './pages/Servicios';
+import DashboardLayout from "./layouts/DashboardLayout";
 
 function App() {
   return(
     <>
-      <Servicios />
+      <DashboardLayout />
     </>
   );
 }

@@ -4,6 +4,7 @@ import PanelGeneral from "./pages/PanelGeneral";
 import Productos from "./pages/Productos";
 import NotFound from "./pages/NotFound";
 import UsuariosLista from "./pages/UsuariosLista";
+import UsuariosDetalle from './pages/UsuariosDetalle';
 
 function App() {
   return(
@@ -12,6 +13,7 @@ function App() {
         <Route index element={ <PanelGeneral /> }/>
         <Route path="productos" element={ <Productos /> }/>
         <Route path="usuarios" element={ <UsuariosLista /> } />
+        <Route path="usuarios/:id" element={ <UsuariosDetalle /> } />
       </Route>
 
       <Route path="*" element={ <NotFound /> } />

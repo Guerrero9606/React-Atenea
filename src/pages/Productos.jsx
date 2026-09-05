@@ -1,4 +1,6 @@
+import InventarioAxios from "../components/InventarioAxios";
 import InventarioMongo from "../components/InventarioMongo";
+import NuevoProductoMongo from "../components/NuevoProductoMongo";
 import ProductoCard from "../components/ProductoCard";
 
 export default function Productos(){
@@ -15,10 +17,10 @@ export default function Productos(){
             <h1>Gestion de Productos</h1>
             <div style={{display: 'flex', marginTop: '20px', gap: '20px'}}>
                 <div>
-                    Nuevos productos
+                    <NuevoProductoMongo />
                 </div>
                 <div style={{flexGrow: 1}}>
-                    <InventarioMongo />
+                    <InventarioAxios />
                 </div>
             </div>
         </div>
